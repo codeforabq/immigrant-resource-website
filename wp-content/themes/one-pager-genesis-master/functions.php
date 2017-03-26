@@ -133,6 +133,40 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the contact section.', 'one-pager' ),
 ) );
 
+
+
+//Register Front Page Resource Section Widgets
+genesis_register_sidebar( array(
+    'id'          => 'resource-type-1',
+    'name'        => __( 'resource-type-1', 'one-pager' ),
+    'description' => __( 'This is the contact section.', 'one-pager' ),
+) );
+genesis_register_sidebar( array(
+    'id'          => 'resource-type-2',
+    'name'        => __( 'resource-type-2', 'one-pager' ),
+    'description' => __( 'This is the contact section.', 'one-pager' ),
+) );
+genesis_register_sidebar( array(
+    'id'          => 'resource-type-3',
+    'name'        => __( 'resource-type-3', 'one-pager' ),
+    'description' => __( 'This is the contact section.', 'one-pager' ),
+) );
+genesis_register_sidebar( array(
+    'id'          => 'resource-type-4',
+    'name'        => __( 'resource-type-4', 'one-pager' ),
+    'description' => __( 'This is the contact section.', 'one-pager' ),
+) );
+genesis_register_sidebar( array(
+    'id'          => 'resource-type-5',
+    'name'        => __( 'resource-type-5', 'one-pager' ),
+    'description' => __( 'This is the contact section.', 'one-pager' ),
+) );
+genesis_register_sidebar( array(
+    'id'          => 'resource-type-6',
+    'name'        => __( 'resource-type-6', 'one-pager' ),
+    'description' => __( 'This is the contact section.', 'one-pager' ),
+) );
+
 // Change widget titles from h4 to h2
 function one_pager_register_sidebar_defaults( $defaults ) {
 	$defaults['before_title'] = '<h2 class="widget-title widgettitle">';
