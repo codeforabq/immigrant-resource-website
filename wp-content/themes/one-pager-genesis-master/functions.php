@@ -31,6 +31,15 @@ add_theme_support( 'genesis-footer-widgets', 3 );
 
 
 
+function theme_name_scriptsss() {
+    wp_enqueue_style( 'style.css', get_stylesheet_uri() );
+    wp_enqueue_style( 'style-name', get_stylesheet_uri() );
+
+}
+add_action( 'wp_enqueue_scripts', 'theme_name_scriptsss' );
+
+
+
 
 
 // One-Pager specific code below
