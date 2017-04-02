@@ -11,15 +11,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 /* Start Adding Functions Below this Line */
 
-//include_once dirname(__FILE__).'/testimonials.php';
-//include_once dirname(__FILE__).'/services.php';
-//include_once dirname(__FILE__).'/events.php';
-//include_once dirname(__FILE__).'/bowen.php';
-//include_once dirname(__FILE__).'/contact.php';
 
-include_once dirname(__FILE__).'/about.php';
-include_once dirname(__FILE__).'/media.php';
-include_once dirname(__FILE__).'/menu.php';
+include_once dirname(__FILE__).'/resources.php';
+
 
 /*
 * CMB2
