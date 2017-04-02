@@ -1987,3 +1987,36 @@ a:focus {
 	}
 
 }
+
+/*--------------------------------------START OF CUSTOM CSS--------------------------------*/
+
+/*----------------------------ENTRY WIDGET------------------------*/
+
+
+
+
+
+/*----------------------------RESOURCE WIDGET------------------------*/
+
+
+
+
+
+/*----------------------------ABOUT WIDGET---------------------------*/
+
+.about-grid{
+	display: flex;
+	justify-content:center;
+	text-align:center;
+	background: red;
+}
+
+.about-item-img{
+	flex:1;
+	box-sizing: border-box;
+}
+
+.about-item-text{
+	flex:2;
+	box-sizing: border-box;
+}
