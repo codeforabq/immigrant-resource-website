@@ -19,7 +19,7 @@ function add_resources()
                 <div class="resource-image">
                     <?php
                     if (isset($entry['photo'])) {
-                        echo wp_get_attachment_image_src($entry['photo_id'], 'full')[0];
+                        echo wp_get_attachment_image($entry['photo_id'], 'thumbnail', "", array("class" => "aligncenter"));
                     }
                     ?>
                 </div>
@@ -32,8 +32,9 @@ function add_resources()
                 </div>
                 <div class="resource-link">
                     <?php
-                    if (isset($entry['learn-more'])) {
-                        echo($entry['learn-more']);
+                    if (isset($entry['learn-more']) && $entry['learn-more'] != '') {
+                        echo '<a class="button" href="' . $entry['learn-more'] . ' ">';
+                        echo 'Learn More</a>';
                     }
                     ?>
                 </div>
@@ -49,7 +50,7 @@ function add_resources()
                 <div class="resource-image">
                     <?php
                     if (isset($entry['photo'])) {
-                        echo wp_get_attachment_image_src($entry['photo_id'], 'full')[0];
+                        echo wp_get_attachment_image($entry['photo_id'], 'thumbnail', "", array("class" => "aligncenter"));
                     }
                     ?>
                 </div>
@@ -62,8 +63,9 @@ function add_resources()
                 </div>
                 <div class="resource-link">
                     <?php
-                    if (isset($entry['learn-more'])) {
-                        echo($entry['learn-more']);
+                    if (isset($entry['learn-more']) && $entry['learn-more'] != '') {
+                        echo '<a class="button" href="' . $entry['learn-more'] . ' ">';
+                        echo 'Learn More</a>';
                     }
                     ?>
                 </div>
@@ -72,7 +74,6 @@ function add_resources()
         }
     }
 }
-
 
 
 genesis();
