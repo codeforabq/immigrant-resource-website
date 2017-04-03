@@ -2020,3 +2020,21 @@ a:focus {
 	flex:2;
 	box-sizing: border-box;
 }
+
+
+
+
+/*-----------------------------RESOURCES TEMPLATE------------------------------------------*/
+
+.resource-image img{
+	float: left;
+	margin-right: 25px;
+}
+
+.resource-title{
+	font-size: 25px;
+}
+.resource-section{
+	padding: 30px;
+	min-height: 40rem;
+}

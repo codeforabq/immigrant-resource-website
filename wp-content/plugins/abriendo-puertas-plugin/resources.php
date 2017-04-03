@@ -51,6 +51,22 @@ if(!function_exists('ap_register_resources_metabox')) {
             'type' => 'file',
         ));
         $cmb->add_group_field($group_field_id, array(
+            'name' => 'Address',
+            'id' => 'address',
+            'type' => 'text',
+        ));
+        $cmb->add_group_field($group_field_id, array(
+            'name' => 'Phone Number',
+            'id' => 'phone-number',
+            'type' => 'text',
+        ));
+        $cmb->add_group_field($group_field_id, array(
+            'name' => 'Email',
+            'id' => 'email',
+            'type' => 'text',
+        ));
+
+        $cmb->add_group_field($group_field_id, array(
             'name' => 'Learn More',
             'id' => 'learn-more',
             'type' => 'text',

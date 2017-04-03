@@ -14,6 +14,11 @@ function add_resources()
             ?>
             <div class="resource-section one-half first">
                 <div class="resource-title">
+                    <?php
+                    if(isset($entry['name'])){
+                        echo($entry['name']);
+                    }
+                    ?>
 
                 </div>
                 <div class="resource-image">
@@ -30,6 +35,28 @@ function add_resources()
                     }
                     ?>
                 </div>
+                <div class="resource-address">
+                    <?php
+                    if (isset($entry['address'])) {
+                        ?> <div class="label">Address:</div><?php echo($entry['address']);
+                    }
+                    ?>
+                </div>
+                <div class="resource-phone">
+                    <?php
+                    if (isset($entry['phone'])) {
+                        echo($entry['phone']);
+                    }
+                    ?>
+                </div>
+                <div class="resource-email">
+                    <?php
+                    if (isset($entry['email'])) {
+                        echo($entry['email']);
+                    }
+                    ?>
+                </div>
+
                 <div class="resource-link">
                     <?php
                     if (isset($entry['learn-more']) && $entry['learn-more'] != '') {
@@ -45,6 +72,11 @@ function add_resources()
             ?>
             <div class="resource-section one-half">
                 <div class="resource-title">
+                    <?php
+                    if(isset($entry['name'])){
+                        echo($entry['name']);
+                    }
+                    ?>
 
                 </div>
                 <div class="resource-image">
@@ -58,6 +90,27 @@ function add_resources()
                     <?php
                     if (isset($entry['resource'])) {
                         echo($entry['resource']);
+                    }
+                    ?>
+                </div>
+                <div class="resource-address">
+                    <?php
+                    if (isset($entry['address'])) {
+                        echo($entry['address']);
+                    }
+                    ?>
+                </div>
+                <div class="resource-phone">
+                    <?php
+                    if (isset($entry['phone'])) {
+                        echo($entry['phone']);
+                    }
+                    ?>
+                </div>
+                <div class="resource-email">
+                    <?php
+                    if (isset($entry['email'])) {
+                        echo($entry['email']);
                     }
                     ?>
                 </div>
