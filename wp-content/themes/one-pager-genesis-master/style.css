@@ -2011,14 +2011,20 @@ a:focus {
 	background: red;
 }
 
-.about-item-img{
+.about-item{
 	flex:1;
 	box-sizing: border-box;
+	margin: 1rem;
+	padding:1rem;
 }
 
-.about-item-text{
-	flex:2;
-	box-sizing: border-box;
+#about-img{
+
+}
+
+#about-text{
+
+
 }
 
 

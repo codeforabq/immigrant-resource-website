@@ -28,7 +28,6 @@ function one_pager_homepage_content() { ?>
 	<!-- Portfolio section -->
 	<section id="portfolio" class="parallax">
 		<article class="wrap">
-			<h2>Our Portfolio</h2>
             <div class="first-row">
             <div class="one-third first">
                 <?php
