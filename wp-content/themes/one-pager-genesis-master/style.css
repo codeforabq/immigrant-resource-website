@@ -2048,4 +2048,12 @@ a:focus {
 	min-height: 40rem;
 }
 
+.page-template-resources .label{
+	font-weight: 700;
+}
+
+.page-template-resources .resource-description{
+	float:left
+}
+
  /*styling for about*/

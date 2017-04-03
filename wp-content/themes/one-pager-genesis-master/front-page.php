@@ -100,16 +100,16 @@ function one_pager_homepage_content() { ?>
 	</section>
 
 	<!-- Contact section -->
-	<section id="contact" class="parallax">
-		<article class="wrap">
-			<?php
-				genesis_widget_area( 'contact-section', array(
-				'before'	=> '<div class="contact-section widget-area">',
-				'after'		=> '</div>',
-				) );
-			?>
-		</article>
-	</section>
+<!--	<section id="contact" class="parallax">-->
+<!--		<article class="wrap">-->
+<!--			--><?php
+//				genesis_widget_area( 'contact-section', array(
+//				'before'	=> '<div class="contact-section widget-area">',
+//				'after'		=> '</div>',
+//				) );
+//			?>
+<!--		</article>-->
+<!--	</section>-->
 
 <?php }
 

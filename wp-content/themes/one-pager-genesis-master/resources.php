@@ -31,7 +31,7 @@ function add_resources()
                 <div class="resource-image">
                     <?php
                     if (isset($entry['photo'])) {
-                        echo wp_get_attachment_image($entry['photo_id'], 'thumbnail', "", array("class" => "aligncenter"));
+                        echo wp_get_attachment_image($entry['photo_id'], 'full', "", array("class" => "aligncenter"));
                     }
                     ?>
                 </div>
@@ -67,7 +67,7 @@ function add_resources()
                 <div class="resource-link">
                     <?php
                     if (isset($entry['learn-more']) && $entry['learn-more'] != '') {
-                        echo '<a class="button" href="' . $entry['learn-more'] . ' ">';
+                        echo '<a class="button" href="' . $entry['learn-more'] . ' " target="_blank">';
                         echo 'Learn More</a>';
                     }
                     ?>
