@@ -45,21 +45,21 @@ function add_resources()
                 <div class="resource-address">
                     <?php
                     if (isset($entry['address'])) {
-                        ?> <div class="label">Address:</div><?php echo($entry['address']);
+                        ?> <span class="label">Address: </span><?php echo($entry['address']);
                     }
                     ?>
                 </div>
                 <div class="resource-phone">
                     <?php
                     if (isset($entry['phone'])) {
-                        echo($entry['phone']);
+                        ?> <span class="label">Phone: </span><?php echo($entry['phone']);
                     }
                     ?>
                 </div>
                 <div class="resource-email">
                     <?php
                     if (isset($entry['email'])) {
-                        echo($entry['email']);
+                        ?> <span class="label">E-mail: </span><?php echo($entry['email']);
                     }
                     ?>
                 </div>
@@ -75,64 +75,6 @@ function add_resources()
             </div>
             <?php
 
-
-//        else {
-//            ?>
-<!--            <div class="resource-section one-half">-->
-<!--                <div class="resource-title">-->
-<!--                    --><?php
-//                    if(isset($entry['name'])){
-//                        echo($entry['name']);
-//                    }
-//                    ?>
-<!---->
-<!--                </div>-->
-<!--                <div class="resource-image">-->
-<!--                    --><?php
-//                    if (isset($entry['photo'])) {
-//                        echo wp_get_attachment_image($entry['photo_id'], 'thumbnail', "", array("class" => "aligncenter"));
-//                    }
-//                    ?>
-<!--                </div>-->
-<!--                <div class="resource-description">-->
-<!--                    --><?php
-//                    if (isset($entry['resource'])) {
-//                        echo($entry['resource']);
-//                    }
-//                    ?>
-<!--                </div>-->
-<!--                <div class="resource-address">-->
-<!--                    --><?php
-//                    if (isset($entry['address'])) {
-//                        echo($entry['address']);
-//                    }
-//                    ?>
-<!--                </div>-->
-<!--                <div class="resource-phone">-->
-<!--                    --><?php
-//                    if (isset($entry['phone'])) {
-//                        echo($entry['phone']);
-//                    }
-//                    ?>
-<!--                </div>-->
-<!--                <div class="resource-email">-->
-<!--                    --><?php
-//                    if (isset($entry['email'])) {
-//                        echo($entry['email']);
-//                    }
-//                    ?>
-<!--                </div>-->
-<!--                <div class="resource-link">-->
-<!--                    --><?php
-//                    if (isset($entry['learn-more']) && $entry['learn-more'] != '') {
-//                        echo '<a class="button" href="' . $entry['learn-more'] . ' ">';
-//                        echo 'Learn More</a>';
-//                    }
-//                    ?>
-<!--                </div>-->
-<!--            </div>-->
-<!--            --><?php
-//        }
     }
 
 }
