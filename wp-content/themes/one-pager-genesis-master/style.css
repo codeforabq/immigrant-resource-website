@@ -2016,13 +2016,16 @@ a:focus {
 	box-sizing: border-box;
 	margin: 1rem;
 	padding:1rem;
+	background: green
+
 }
 
-#about-img{
+/*#about-img{
 
 }
 
 #about-text{
+
 
 
 }
@@ -2044,3 +2047,5 @@ a:focus {
 	padding: 30px;
 	min-height: 40rem;
 }
+
+ /*styling for about*/
