@@ -2008,7 +2008,8 @@ a:focus {
 	display: flex;
 	justify-content:center;
 	text-align:center;
-	background: red;
+	align-items:center;
+	/*background: red;*/
 }
 
 .about-item{
@@ -2016,19 +2017,42 @@ a:focus {
 	box-sizing: border-box;
 	margin: 1rem;
 	padding:1rem;
-	background: green
+	background: blue;
 
 }
 
-/*#about-img{
+.about-img{
+	width: 100%;
+	height: auto;
+	padding: 1rem;
+}
+
+
+/*query for ipads */
+@media (max-width: 1024px) {
+  .about-grid{
+    display: flex;
+  }
+  .about-item{
+      flex:1;
+      margin: 1rem 2rem;
+      box-sizing: border-box;
+  }
 
 }
 
-#about-text{
+/*query for mobiles */
+@media (max-width: 480px) {
+  .about-grid{
+    display: block;
+  }
 
-
+  .about-item{
+     margin: 5rem 1rem;
+  }
 
 }
+
 
 
 
