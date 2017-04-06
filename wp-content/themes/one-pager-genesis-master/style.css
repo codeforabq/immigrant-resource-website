@@ -2159,5 +2159,12 @@ a:focus {
 	color: #7286A0;
 }
 
+@media screen and (max-width: 435px){
+	.resource-content{
+		width: auto;
+		float: none;
+	}
+}
+
 
  /*styling for about*/
