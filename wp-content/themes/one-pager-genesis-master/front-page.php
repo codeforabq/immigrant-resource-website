@@ -80,6 +80,14 @@ function one_pager_homepage_content() { ?>
                     ?>
                 </div>
             </div>
+            <div class="one-third">
+                <?php
+                genesis_widget_area( 'resource-type-7', array(
+                    'before'	=> '<div class="resource-type-7 widget-area">',
+                    'after'		=> '</div>',
+                ) );
+                ?>
+            </div>
 			<?php
 //            echo do_shortcode('[display-posts post_type="portfolio" image_size="portfolio" posts_per_page="6" wrapper="div"]');
 

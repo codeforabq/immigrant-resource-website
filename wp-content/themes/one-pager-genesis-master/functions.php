@@ -42,7 +42,7 @@ add_action( 'wp_enqueue_scripts', 'theme_name_scriptsss' );
 
 //enqueues our external font awesome stylesheet
 function enqueue_font_awesome_stylesheets(){
-    wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+    wp_enqueue_style('font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 }
 add_action('wp_enqueue_scripts','enqueue_font_awesome_stylesheets');
 
@@ -179,6 +179,11 @@ genesis_register_sidebar( array(
 genesis_register_sidebar( array(
     'id'          => 'resource-type-6',
     'name'        => __( 'resource-type-6', 'one-pager' ),
+    'description' => __( 'This is the contact section.', 'one-pager' ),
+) );
+genesis_register_sidebar( array(
+    'id'          => 'resource-type-7',
+    'name'        => __( 'resource-type-7', 'one-pager' ),
     'description' => __( 'This is the contact section.', 'one-pager' ),
 ) );
 
