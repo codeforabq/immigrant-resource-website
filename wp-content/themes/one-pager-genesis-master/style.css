@@ -1693,8 +1693,8 @@ section#welcome {
 }
 
 section#portfolio {
-	background-image: url(images/portfolio-background.jpg);
-	background-color: #050505;
+	/*background-image: url(images/portfolio-background.jpg);*/
+	background-color: white;
 }
 
 section#about {
@@ -1730,6 +1730,8 @@ a:focus {
 
 #portfolio h2 {
 	text-transform: uppercase;
+	color: #E87461;
+	font-size: 25px;
 }
 
 #portfolio .display-posts-listing {
@@ -1999,7 +2001,18 @@ a:focus {
 /*----------------------------RESOURCE WIDGET------------------------*/
 
 
+#portfolio a img{
+	height: 21rem;
+	width: auto;
+}
 
+#portfolio .fa{
+	color:black;
+}
+
+#portfolio .widget{
+	min-height: 18rem;
+}
 
 
 /*----------------------------ABOUT WIDGET---------------------------*/
@@ -2059,25 +2072,25 @@ a:focus {
 
 /*-----------------------------RESOURCES TEMPLATE------------------------------------------*/
 
-.resource-image img{
-	float: left;
-	margin-right: 25px;
-}
+/*.resource-image img{*/
+	/*float: left;*/
+	/*margin-right: 25px;*/
+/*}*/
 
-.resource-title{
-	font-size: 25px;
-}
-.resource-section{
-	padding: 30px;
-	min-height: 40rem;
-}
+/*.resource-title{*/
+	/*font-size: 25px;*/
+/*}*/
+/*.resource-section{*/
+	/*padding: 30px;*/
+	/*min-height: 40rem;*/
+/*}*/
 
-.page-template-resources .label{
-	font-weight: 700;
-}
+/*.page-template-resources .label{*/
+	/*font-weight: 700;*/
+/*}*/
 
-.page-template-resources .resource-description{
-	float:left
-}
+/*.page-template-resources .resource-description{*/
+	/*float:left*/
+/*}*/
 
  /*styling for about*/
